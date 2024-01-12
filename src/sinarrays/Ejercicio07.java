@@ -10,7 +10,7 @@ public class Ejercicio07 {
 		int temperaturaMedia;
 
 		// Variables posibles para el nombre del mes en una tabla
-		String mes[] = { "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre",
+		final String MES[] = { "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre",
 				"Octubre", "Noviembre", "Diciembre"};
 
 		// Creamos nuestra tabla de longitud 12
@@ -23,7 +23,7 @@ public class Ejercicio07 {
 		for (int i = 0; i < tabla.length; i++) {
 
 			// Le pedimos al usuario un número
-			System.out.println("Introduzca la temperatura media de " + mes[i]);
+			System.out.println("Introduzca la temperatura media de " + MES[i]);
 			// Lo almacenamos
 			temperaturaMedia = sc.nextInt();
 			// Y lo asignamos a la tabla en la posición correspondiente
@@ -34,7 +34,7 @@ public class Ejercicio07 {
 		for (int i = 0; i < tabla.length; i++) {
 
 			// Muestra el mes correspondiente
-			System.out.print(mes[i] + "\t");
+			System.out.print(MES[i] + "\t");
 
 			// Añade un tabulador más en estos casos
 			if (i != 8 && i != 10 && i != 11)
