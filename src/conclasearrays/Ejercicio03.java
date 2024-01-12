@@ -42,6 +42,9 @@ public class Ejercicio03 {
 		
 		// Mostramos el resultado
 		System.out.println("Ambas tablas " + (tablasIguales ? "son iguales" : "no son iguales"));
+		
+		// Cerramos el Scanner
+		sc.close();
 	}
 
 }
