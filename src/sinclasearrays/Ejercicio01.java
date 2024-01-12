@@ -1,4 +1,4 @@
-package sinarrays;
+package sinclasearrays;
 
 import java.util.Random;
 
