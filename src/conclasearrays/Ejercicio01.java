@@ -36,6 +36,9 @@ public class Ejercicio01 {
 		
 		// Mostramos la tabla creada
 		System.out.println(Arrays.toString(tabla));
+		
+		// Cerramos el Scanner
+		sc.close();
 	}
 
 }
