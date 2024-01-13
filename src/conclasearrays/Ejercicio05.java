@@ -39,7 +39,6 @@ public class Ejercicio05 {
 			// A cada valor de las puntuaciones descendentes le asignaremos el valor de las
 			// puntuaciones pero en orden inverso
 			puntuacionesDescendentes[i] = puntuaciones[puntuaciones.length - 1 - i];
-
 		}
 
 		// Mostramos la tabla de puntuaciones descendientes
