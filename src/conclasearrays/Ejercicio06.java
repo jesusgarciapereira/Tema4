@@ -47,7 +47,7 @@ public class Ejercicio06 {
 		else
 			System.out.println("Existe este número en la tabla, ha aparecido en " + contExistentes + " ocasion(es)");
 		
-		
+		sc.close();
 	}
 
 }
