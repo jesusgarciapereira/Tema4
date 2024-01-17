@@ -4,6 +4,7 @@ public class Ejercicio01 {
 
 	// ENTRADA: Tabla de tipo enteros
 	// SALIDA: Suma de todos los elementos de la tabla
+	// Función sumaValoresTabla()
 	public static int sumaValoresTabla(int tabla[]) {
 		// Resultado de la suma de los elementos de la tabla
 		int resultado = 0;
