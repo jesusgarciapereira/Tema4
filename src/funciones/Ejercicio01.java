@@ -1,7 +1,5 @@
 package funciones;
 
-import java.util.Arrays;
-
 public class Ejercicio01 {
 
 	// ENTRADA: Tabla de tipo enteros
