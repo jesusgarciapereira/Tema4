@@ -11,7 +11,7 @@ public class Ejercicio05 {
 		// Declaramos la tabla que devolverá la función
 		int posiciones[];
 		
-		// Creamos la tabla () provisional con las posiciones en donde se encuentra en número
+		// Creamos una tabla provisional con las posiciones en donde se encuentra en número
 		int posicionesProvisional[] = new int[t.length];
 
 		// Posición en la que asignaremos la posición en la que se encuentra el número
