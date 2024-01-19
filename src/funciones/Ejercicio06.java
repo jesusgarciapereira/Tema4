@@ -14,19 +14,15 @@ public class Ejercicio06 {
 
 		// Bucle for que recorre la tabla sumas
 		for (int i = 0; i < sumas.length; i++) {
-			// Declaramos la variable de cada valor de la tabla sumas, en cada reiteración
-			// del bucle se inicializa en 0
-			int suma = 0;
+
 			// Bucle for que tantos elementos de la tabla como el valor del parámetro
 			// indique y siempre empezando desde el índice en el que nos encontremos
 			for (int j = i; j < numElementos + i; j++) {
-				// Le asignamos a suma, la suma de tantos elementos consecutivos (como indique
-				// el valor del parámetro) de la tabla t
-				suma += t[j];
+				// Le asignamos a cada elemento de la tabla sumas, la suma de cada valor de la
+				// tabla del parámetro
+				sumas[i] += t[j];
 			}
-			// Y al final los resultados de cada suma se asignan a cada valor de la tabla
-			// sumas
-			sumas[i] = suma;
+
 		}
 
 		// Devuelve la tabla sumas
@@ -37,7 +33,7 @@ public class Ejercicio06 {
 	public static void main(String[] args) {
 
 		// Nñumero de elementos consecutivos de la tabla que se sumarán
-		int numElementos = 7;
+		int numElementos = 2;
 
 		// Tabla con los resultados de las sumas
 		int resultados[];
