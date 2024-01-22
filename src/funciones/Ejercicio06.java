@@ -15,7 +15,7 @@ public class Ejercicio06 {
 		// Bucle for que recorre la tabla sumas
 		for (int i = 0; i < sumas.length; i++) {
 
-			// Bucle for que tantos elementos de la tabla como el valor del parámetro
+			// Bucle for que recorre tantos elementos de la tabla como el valor del parámetro
 			// indique y siempre empezando desde el índice en el que nos encontremos
 			for (int j = i; j < numElementos + i; j++) {
 				// Le asignamos a cada elemento de la tabla sumas, la suma de cada valor de la
