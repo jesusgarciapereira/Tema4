@@ -76,6 +76,7 @@ public class Ejercicio05 {
 			// Asignamos al sumatorio total la suma de todos los sumatorios de cada columna
 			sumatorioTotal += sumatorioColumna;
 		}
+		
 		// Por último, mostramos el sumatorio total
 		System.out.println("TOTAL = " + sumatorioTotal);
 	}
