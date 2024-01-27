@@ -23,7 +23,8 @@ public class Ejercicio04 {
 
 	public static void main(String[] args) {
 
-		// Asignamos la tabla llamada en la función que hemos creado
+		// Asignamos a tablasHastaEl10[][] la tabla llamada en la función que hemos
+		// creado
 		int tablasHastaEl10[][] = Ejercicio04.tablasHastaEl10();
 
 		// Mostramos la tabla a nuestro gusto
