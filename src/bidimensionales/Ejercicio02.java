@@ -10,7 +10,7 @@ public class Ejercicio02 {
 		// Número de alumnos: 4
 		final int CANT_ALUMNOS = 4;
 		// Número de notas: 5
-		int CANT_NOTAS = 5;
+		final int CANT_NOTAS = 5;
 
 		// VARIABLES
 		// Nota mínima, nota máxima, suma de notas y nota media que calcularemos
