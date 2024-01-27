@@ -57,7 +57,7 @@ public class Ejercicio08 {
 		esSimetrica = Ejercicio08.esSimetrica(tabla);
 
 		// Mostramos el resultado
-		System.out.println("Esta tabla " + (esSimetrica ? "es simétrica" : "no es simétrica"));
+		System.out.println("Esta tabla " + (esSimetrica ? "es " : "no es ") + "simétrica");
 	}
 
 }
