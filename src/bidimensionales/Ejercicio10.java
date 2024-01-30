@@ -3,6 +3,11 @@ package bidimensionales;
 import java.util.Random;
 
 public class Ejercicio10 {
+	// CONSTANTES
+	// Número de filas de la tabla: 4
+	public final static int CANT_FILAS = 4;
+	// Número de columnas de la tabla: 4
+	public final static int CANT_COLUMNAS = 4;
 
 	// ENTRADA: Tabla bidimensional de números enteros
 	// SALIDA: La tabla del parámetro girada 90 grados
@@ -32,11 +37,6 @@ public class Ejercicio10 {
 	}
 
 	public static void main(String[] args) {
-		// CONSTANTES
-		// Número de filas de la tabla: 4
-		final int CANT_FILAS = 4;
-		// Número de columnas de la tabla: 4
-		final int CANT_COLUMNAS = 4;
 
 		// Tabla girada
 		int tablaGirada[][];
