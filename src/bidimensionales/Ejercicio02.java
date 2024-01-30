@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class Ejercicio02 {
 
-	public static void main(String[] args) {
-		// CONSTANTES
-		// Número de alumnos: 4
-		final int CANT_ALUMNOS = 4;
-		// Número de notas: 5
-		final int CANT_NOTAS = 5;
+	// CONSTANTES
+	// Número de alumnos: 4
+	public final static int CANT_ALUMNOS = 4;
+	// Número de notas: 5
+	public final static int CANT_NOTAS = 5;
 
+	public static void main(String[] args) {
 		// VARIABLES
 		// Nota mínima, nota máxima, suma de notas y nota media que calcularemos
 		int notaMin;
