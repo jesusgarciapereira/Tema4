@@ -3,6 +3,11 @@ package bidimensionales;
 import java.util.Random;
 
 public class Ejercicio06 {
+	// CONSTANTES
+	// Número de filas de la tabla: 6
+	public static final int CANT_FILAS = 6;
+	// Número de columnas de la tabla: 10
+	private static final int CANT_COLUMNAS = 10;
 
 	// ENTRADA: Tabla bidimensional de números enteros
 	// SALIDA: Tabla unidimensional de longitud 2 con el valor mínimo y el valor
@@ -42,15 +47,10 @@ public class Ejercicio06 {
 	}
 
 	public static void main(String[] args) {
-		// CONSTANTES
-		// Número de filas de la tabla: 6
-		final int CANT_FILAS = 6;
-		// Número de columnas de la tabla: 10
-		final int CANT_COLUMNAS = 10;
 
 		// Tabla unidimensional con el mínimo y el máximo
 		int minMax[];
-		
+
 		// Creamos la tabla
 		int numeros[][] = new int[CANT_FILAS][CANT_COLUMNAS];
 
@@ -78,13 +78,14 @@ public class Ejercicio06 {
 			// Salto de línea para cada fila
 			System.out.println();
 		}
-		
+
 		// Salto de línea
 		System.out.println();
-		
-		// Asignamos a la tabla minMax la tabla que nos devolverá la función que hemos creado
+
+		// Asignamos a la tabla minMax la tabla que nos devolverá la función que hemos
+		// creado
 		minMax = Ejercicio06.minimoMaximo(numeros);
-		
+
 		// Mostramos los dos valores que contiene
 		System.out.println("El número mínimo en esta tabla es: " + minMax[0]);
 		System.out.println("El número máximo en esta tabla es: " + minMax[1]);
