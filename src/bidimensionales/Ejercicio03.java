@@ -3,6 +3,11 @@ package bidimensionales;
 import java.util.Random;
 
 public class Ejercicio03 {
+	// CONSTANTES
+	// Cantidad de filas: 5
+	public final static int CANT_FILAS = 5;
+	// Cantidad de columnas: 5
+	public final static int CANT_COLUMNAS = 5;
 
 	// ENTRADA: Tabla bidimensional de números enteros
 	public static void bidimensionalModificado(int tabla[][]) {
@@ -18,11 +23,6 @@ public class Ejercicio03 {
 	}
 
 	public static void main(String[] args) {
-		// CONSTANTES
-		// Cantidad de filas: 5
-		final int CANT_FILAS = 5;
-		// Cantidad de columnas: 5
-		final int CANT_COLUMNAS = 5;
 
 		// Creamos una tabla bidimensional
 		int tabla[][] = new int[CANT_FILAS][CANT_COLUMNAS];
