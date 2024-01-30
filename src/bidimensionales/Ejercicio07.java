@@ -3,6 +3,12 @@ package bidimensionales;
 import java.util.Random;
 
 public class Ejercicio07 {
+	// CONSTANTES
+	// Número de filas de la tabla: 4
+	public final static int CANT_FILAS = 4;
+	// Número de columnas de la tabla: 4
+	public final static int CANT_COLUMNAS = 4;
+	
 	// ENTRADA: Tabla bidimensional
 	// SALIDA: La tabla del parámetro pero transpuesta
 	public static int[][] tablaTranspuesta(int tabla[][]) {
@@ -23,11 +29,6 @@ public class Ejercicio07 {
 	}
 
 	public static void main(String[] args) {
-		// CONSTANTES
-		// Número de filas de la tabla: 4
-		final int CANT_FILAS = 4;
-		// Número de columnas de la tabla: 4
-		final int CANT_COLUMNAS = 4;
 
 		// Tabla transpuesta
 		int tablaTranspuesta[][];
