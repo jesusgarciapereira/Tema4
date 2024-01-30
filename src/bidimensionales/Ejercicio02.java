@@ -62,10 +62,10 @@ public class Ejercicio02 {
 
 		// Bucle for que recorre cada fila (alumnos)
 		for (int i = 0; i < CANT_ALUMNOS; i++) {
-			// En cada iteración del bucle, inicializamos las variables en 0 para así poder
+			// En cada iteración del bucle, inicializamos las variables para así poder
 			// reutilizarlas
-			notaMin = 0;
-			notaMax = 0;
+			notaMin = Integer.MAX_VALUE;
+			notaMax = Integer.MAX_VALUE;
 			sumaNotas = 0;
 			notaMedia = 0;
 			// Aplicamos el método sort() para ordenar cada fila
