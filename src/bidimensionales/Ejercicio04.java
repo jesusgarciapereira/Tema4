@@ -2,11 +2,14 @@ package bidimensionales;
 
 public class Ejercicio04 {
 
+	// Constante representando al número 10
+	public static final int DIEZ = 10;
+
 	// ENTRADA: Nada
 	// SALIDA: La tablas tablas de multiplicar del 1 al 10
 	public static int[][] tablasHastaEl10() {
 		// Creamos una tabla bidimensional 10x10
-		int tablasHastaEl10[][] = new int[10][10];
+		int tablasHastaEl10[][] = new int[DIEZ][DIEZ];
 
 		// Asignamos los valores a la tabla
 		// Bucle for que recorre las filas de la tabla
