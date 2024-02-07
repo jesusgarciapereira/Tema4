@@ -20,9 +20,9 @@ public class Ejercicio10 {
 		if (tablaGirada.length == tablaGirada[0].length) {
 			// Asignamos los valores a la tabla girada
 			// Bucle for que recorre cada fila de la tabla
-			for (int i = 0; i < tablaGirada.length; i++) {
+			for (int i = 0; i < tablaInicio.length; i++) {
 				// Bucle for que recorre cada columna de la fila
-				for (int j = 0; j < tablaGirada[i].length; j++) {
+				for (int j = 0; j < tablaInicio[i].length; j++) {
 					// Aplicamos este algoritmo para todos los elementos de la tabla girada
 					tablaGirada[j][tablaGirada.length - 1 - i] = tablaInicio[i][j];
 				}
@@ -80,9 +80,9 @@ public class Ejercicio10 {
 		// Mostramos la tabla transpuesta
 		System.out.println("TABLA GIRADA");
 		// Bucle for-each que recorrerá cada fila de la tabla normal
-		for (int[] filas : tablaGirada) {
+		for (int[] fila : tablaGirada) {
 			// Bucle for-each que recorrerá cada columna de la fila
-			for (int valor : filas) {
+			for (int valor : fila) {
 				// Muestra el valor del elemento seguido de un tabulador
 				System.out.print(valor + "\t");
 			}
